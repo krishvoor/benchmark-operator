@@ -1,0 +1,3 @@
+---
+# defaults file for coremark
+resource_kind: "{{ workload.args.kind | default('pod') }}"
